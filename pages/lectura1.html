@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="es" class"no-js">
+    
+    <head>
+    
+    <meta charset="UTF-8">
+        <meta content="German Andres Barrios Ortega" name="author"/>
+        <meta content="Pagina de curso de Disenos de Sitios Web" name="description" />
+        <meta content="EDUCACION, UNAD, INGENIERIA, SISTEMAS, DISENO, OVA, CURSO, WEB" name="keywords" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/style2.css">
+
+        <title>Lectura No.1</title>
+     </head>
+
+     <body style="margin: 20px;" >
+
+			<h4 id="titulo"> DEFINICION DE LAS HERRAMIENTAS ETL</h4><br>			
+				<p id="parrafo">					
+					ETL es el proceso que permite a las organizaciones mover datos desde múltiples fuentes, reformatearlos y limpiarlos, y cargarlos en otra base de datos, data mart, o data warehouse para analizar, o en otro sistema operacional para apoyar un proceso de negocio.
+					Los procesos ETL también se pueden utilizar para la integración con sistemas heredados.
+
+				</p>
+
+			<h5>Extraer</h5><br>
+
+				<p id="parrafo">
+
+					La primera parte del proceso ETL consiste en extraer los datos desde los sistemas de origen. La mayoría de los proyectos de almacenamiento de datos fusionan datos provenientes de diferentes sistemas de origen. Cada sistema separado puede usar una organización diferente de los datos o formatos distintos. Los formatos de las fuentes normalmente se encuentran en bases de datos relacionales o ficheros planos, pero pueden incluir bases de datos no relacionales u otras estructuras diferentes..
+					Una parte intrínseca del proceso de extracción es la de analizar los datos extraídos, 
+					de lo que resulta un chequeo que verifica si los datos cumplen la pauta o estructura que se esperaba. De no ser así los datos son rechazados.
+					Un requerimiento importante que se debe exigir a la tarea de extracción es que ésta cause un impacto mínimo en el sistema origen. Si los datos a extraer son muchos, el sistema de origen se podría ralentizar e incluso colapsar, provocando que éste no pueda utilizarse con normalidad para su uso cotidiano. Por esta razón, en sistemas grandes las operaciones de extracción suelen programarse en horarios o días donde este impacto sea nulo o mínimo.
+				</p>
+
+			<h5>Transformar</h5><br>
+
+				<p id="parrafo">
+					La fase de transformación aplica una serie de reglas de negocio o funciones sobre los datos extraídos para convertirlos en datos que serán cargados. Algunas fuentes de datos requerirán alguna pequeña manipulación de los datos.
+
+
+			<h5>Cargar</h5><br>
+
+				<p id="parrafo">
+					La fase de carga es el momento en el cual los datos de la fase anterior (transformación) son cargados en el sistema de destino. Dependiendo de los requerimientos de la organización, este proceso puede abarcar una amplia variedad de acciones diferentes.En algunas bases de datos se sobrescribe la información antigua con nuevos datos. Los data warehouse mantienen un historial de los mantienen un historial de los registros de manera que se pueda hacer una auditoría de los mismos y disponer de un rastro de toda la historia de un valor a lo largo del tiempo. registros de manera que se pueda hacer una auditoría de los mismos y disponer de un rastro de toda la historia de un valor a lo largo del tiempo.
+
+				
+
+					Existe una única forma de cargar los datos:
+
+					Rolling
+					El proceso de Rolling por su parte, se aplica en los casos en que se opta por mantener varios niveles de granularidad (jerarquías). Para ello se almacena información resumida a distintos niveles, correspondientes a distintas agrupaciones de la unidad de tiempo o diferentes niveles jerárquicos en alguna o varias de las dimensiones de la magnitud almacenada.
+
+				</p>
+
+				<hr>
+
+				<h6>Extract, transform and load. </h6> <p>Recuperado el 20 de octubre de 2016, de https://es.wikipedia.org/wiki/Extract,_transform_and_load</p>
+				
+			
+		     </body>
